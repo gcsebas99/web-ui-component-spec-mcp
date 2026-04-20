@@ -19,6 +19,16 @@ AI assistant query exactly what it needs, when it needs it:
 
 ---
 
+## Read the specification
+
+Prefer the human-readable version? Download the full spec as a PDF:
+
+**[Web UI Component Specification (v1.0) — PDF](https://github.com/gcsebas99/web-ui-component-spec-mcp/raw/main/exports/v1.0/Web_UI_Component_Specification_v1.0.pdf)**
+
+All exported versions live under [`exports/`](exports/).
+
+---
+
 ## Installation
 
 ### Option 1 — uvx (recommended, no install required)
@@ -169,7 +179,8 @@ web-ui-component-spec-mcp/
 ├── parsers/               # MD parsing logic
 ├── data/                  # In-memory store (loaded at startup)
 │
-├── source/                # Spec MD files (not committed, copy from spec repo)
+├── source/                # Spec MD files (bundled; VERSION.md pins the revision)
+├── exports/                # Human-readable PDF exports of the spec
 ├── skill/                 # Skill files for AI assistants
 └── examples/              # Example prompts
 ```
