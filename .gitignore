@@ -39,11 +39,5 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Source MD files are not committed to this repo
-# Copy them from your spec repo — see source/README.md
-source/Core_Principles.md
-source/Component_Catalog.md
-source/Step_By_Step_Guide.md
-
 # Build artifacts
 *.pdf
