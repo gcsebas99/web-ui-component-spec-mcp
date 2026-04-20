@@ -1,6 +1,7 @@
 # Source MD Files
 
-Place the following files from the Web UI Component Specification here:
+This folder ships with the Web UI Component Specification source files
+used by the MCP server:
 
 | File | Section |
 |---|---|
@@ -8,8 +9,7 @@ Place the following files from the Web UI Component Specification here:
 | `Component_Catalog.md` | Component Catalog |
 | `Step_By_Step_Guide.md` | Step-by-Step Build Guide |
 
-These files are not included in the repository and must be copied from
-the specification source. See README.md for instructions.
+`VERSION.md` pins the spec revision included in this repo (e.g. `v 1.0`).
 
 When a new version of the specification is released, replace these files
-with the updated versions and restart the server.
+with the updated versions, bump `VERSION.md`, and restart the server.
