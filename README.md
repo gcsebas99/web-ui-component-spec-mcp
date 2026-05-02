@@ -70,7 +70,7 @@ Add to your MCP client config (Claude Desktop, Cursor, etc.):
   "mcpServers": {
     "ui-spec": {
       "command": "uvx",
-      "args": ["web-ui-component-spec-mcp"]
+      "args": ["web-ui-spec-mcp"]
     }
   }
 }
