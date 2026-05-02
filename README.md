@@ -47,12 +47,12 @@ web-ui-spec-mcp
 ### Option 3 — Clone and run
 
 ```bash
-git clone https://github.com/yourname/web-ui-component-spec-mcp.git
+git clone https://github.com/gcsebas99/web-ui-component-spec-mcp.git
 cd web-ui-component-spec-mcp
 pip install -r requirements.txt
 ```
 
-Then copy the spec source files (see [Source files](#source-files) below).
+Then execute `server.py`.
 
 ```bash
 python server.py
@@ -103,23 +103,13 @@ Add to your MCP client config (Claude Desktop, Cursor, etc.):
 
 ## Source files
 
-The spec content (Markdown files) must be placed in the `source/` directory:
+The spec content (Markdown files) are included in the `source/` directory (latest version available):
 
 | File | Description |
 |---|---|
 | `source/Core_Principles.md` | Component philosophy, design tokens, interaction principles |
 | `source/Component_Catalog.md` | Full catalog of all components with specs and tests |
 | `source/Step_By_Step_Guide.md` | Step-by-step build guide |
-
-These files are available in the
-[Web UI Component Specification repository](https://github.com/yourname/web-ui-component-spec).
-
-**When a new spec version is released:** replace the source files and restart the server.
-
-**Custom source location:** set the `UI_SPEC_SOURCE_DIR` environment variable:
-```bash
-UI_SPEC_SOURCE_DIR=/path/to/your/md/files web-ui-spec-mcp
-```
 
 ---
 
@@ -150,12 +140,6 @@ before starting a component build session.
 
 **Compact skill** (for mid-session use when context is limited):
 [`skill/skill-compact.md`](skill/skill-compact.md)
-
-Raw URLs for direct use:
-```
-https://raw.githubusercontent.com/yourname/web-ui-component-spec-mcp/main/skill/skill-full.md
-https://raw.githubusercontent.com/yourname/web-ui-component-spec-mcp/main/skill/skill-compact.md
-```
 
 ---
 
