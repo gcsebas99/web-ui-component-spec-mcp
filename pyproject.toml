@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "web-ui-component-spec-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "MCP server for the Web UI Component Specification — behavioral specs, tests, and principles for web UI component libraries"
 readme = "README.md"
 license = { file = "LICENSE" }

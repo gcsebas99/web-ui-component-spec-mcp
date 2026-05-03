@@ -1,9 +1,6 @@
 # Web UI Component Specification — MCP Server
 
-An MCP (Model Context Protocol) server that gives AI coding assistants
-direct access to the [Web UI Component Specification](https://github.com/yourname/web-ui-component-spec) —
-a comprehensive behavioral reference for web UI component libraries covering
-component specs, test scenarios, accessibility requirements, and a step-by-step build guide.
+An MCP (Model Context Protocol) server that gives AI coding assistants direct access to the Web UI Component Specification — a comprehensive behavioral reference for web UI component libraries covering component specs, test scenarios, accessibility requirements, and a step-by-step build guide.
 
 ---
 
