@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "web-ui-component-spec-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "MCP server for the Web UI Component Specification — behavioral specs, tests, and principles for web UI component libraries"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -32,7 +32,7 @@ Repository = "https://github.com/gcsebas99/web-ui-component-spec-mcp"
 Issues = "https://github.com/gcsebas99/web-ui-component-spec-mcp/issues"
 
 [project.scripts]
-web-ui-spec-mcp = "server:main"
+web-ui-component-spec-mcp = "server:main"
 
 [tool.hatch.build.targets.wheel]
 # Include source MD files and skill files in the package

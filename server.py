@@ -8,13 +8,13 @@ Usage (clone and run):
     python server.py
 
 Usage (after pip install):
-    web-ui-spec-mcp
+    web-ui-component-spec-mcp
 
 MCP client config:
     {
         "mcpServers": {
             "ui-spec": {
-                "command": "web-ui-spec-mcp"
+                "command": "web-ui-component-spec-mcp"
             }
         }
     }

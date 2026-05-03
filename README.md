@@ -41,7 +41,7 @@ uvx web-ui-component-spec-mcp
 
 ```bash
 pip install web-ui-component-spec-mcp
-web-ui-spec-mcp
+web-ui-component-spec-mcp
 ```
 
 ### Option 3 — Clone and run
@@ -70,7 +70,7 @@ Add to your MCP client config (Claude Desktop, Cursor, etc.):
   "mcpServers": {
     "ui-spec": {
       "command": "uvx",
-      "args": ["web-ui-spec-mcp"]
+      "args": ["web-ui-component-spec-mcp"]
     }
   }
 }
@@ -81,7 +81,7 @@ Add to your MCP client config (Claude Desktop, Cursor, etc.):
 {
   "mcpServers": {
     "ui-spec": {
-      "command": "web-ui-spec-mcp"
+      "command": "web-ui-component-spec-mcp"
     }
   }
 }
